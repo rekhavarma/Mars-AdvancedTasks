@@ -63,6 +63,7 @@
 
   <ItemGroup>
     <Folder Include="bin\Debug\net461\" />
+    <Folder Include="TestReports\Screenshots\" />
   </ItemGroup>
 
   <ItemGroup>
