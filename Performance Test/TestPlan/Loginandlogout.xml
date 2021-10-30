@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1631881117926,266,Login and Logout,200,OK,Users 1-1,text,true,,2021,119,1,1,http://localhost:5000/,258,0,114
+1631881129921,21,Login and Logout,200,OK,Users 1-1,text,true,,2021,119,1,1,http://localhost:5000/,21,0,6
+1631882292303,57,Login and Logout,200,OK,Users 1-1,text,true,,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,57,0,3
+1631882312438,36,Login and Logout,200,OK,Users 1-1,text,true,,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,36,0,5
+1631882923875,21,Login and Logout,200,OK,Users 1-1,text,false,Test failed: code expected to contain /200 OK/,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,21,0,2
+1631882940108,24,Login and Logout,200,OK,Users 1-1,text,false,Test failed: code expected to match /200 OK/,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,24,0,3
+1631882963703,12,Login and Logout,200,OK,Users 1-1,text,false,Test failed: code expected to match /200 OK/,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,12,0,2
+1631882989350,11,Login and Logout,200,OK,Users 1-1,text,true,,2021,169,1,1,http://localhost:5000/?username=tokas.preeti%40gmail.com&password=tokas1,11,0,1
